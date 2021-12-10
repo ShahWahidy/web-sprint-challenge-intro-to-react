@@ -13,7 +13,7 @@ const CharacterCard = (props) => {
     return(
         <div className="contents" >
             <div className="personDetails">
-                  {newData[0]}
+                  <div className="luke"> {newData[0]} </div>
             </div>       
         </div>
     )
